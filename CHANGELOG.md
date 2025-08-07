@@ -15,6 +15,10 @@
 - Testnet tests and testing logs from them
 - See [./proof-of-concept/](./proof-of-concept/)
 
+### Changed
+
+- Rebranded Vacuumlabs Auditing to [Invariant0](https://invariant0.com/), the Fresh New Face of Vacuumlabs Auditing.
+
 ## Version 0.2 (Milestone 2) - [2024-08-27]
 
 ### Added

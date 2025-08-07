@@ -75,15 +75,15 @@ All transactions can be verified on [Cardano Preview Explorer](https://preview.c
 - **Fee Treasury Address**: [addr_test1wr9hp6ytkxjcnlgsg0c34j7ssvg9zgf38l6vw0vu2a2zv9cxacpe7](https://preview.cardanoscan.io/address/addr_test1wr9hp6ytkxjcnlgsg0c34j7ssvg9zgf38l6vw0vu2a2zv9cxacpe7)
 - **Fee Amount**: 2 ADA per transfer (as configured in tests)
 
-### 3. `blacklist.log` - Blacklist Programmable Tokens  
+### 3. `blacklist.log` - Blacklist Programmable Tokens
 **Demonstrates**: Dynamic address blacklisting, bidirectional transfer blocking, admin blacklist management
 
 **Key Transactions**:
-- **Step 1 - Token Creation & Bootstrap**: [09c6aa25b7a3f61d4031dc188cbc2430d901453ee5eef3c3cdf59eeaf8592d32](https://preview.cardanoscan.io/transaction/09c6aa25b7a3f61d4031dc188cbc2430d901453ee5eef3c3cdf59eeaf8592d32)
-- **Step 2 - Normal Transfer to Non-Blacklisted**: [dce6b8db9b38165e270202ac82a09ef9182d812d88c26b2429e5d9205727f7d9](https://preview.cardanoscan.io/transaction/dce6b8db9b38165e270202ac82a09ef9182d812d88c26b2429e5d9205727f7d9)
-- **Step 3 - Blacklist Action by Admin**: [973b58df7a88ad131990a1db71c977415d8b0183583c8c67c72705f96691c902](https://preview.cardanoscan.io/transaction/973b58df7a88ad131990a1db71c977415d8b0183583c8c67c72705f96691c902)
+- **Step 1 - Token Creation & Bootstrap**: [09c6aa25b7a3f61d4031dc188cbc2430d901453ee5eef3c3cdf59eeaf8592d32](https://preview.cardanoscan.io/transaction/09c6aa25b7a3f61d4031dc188cbc2430d901453ee5eef3c3cdf59eeaf8592d32) & [dce6b8db9b38165e270202ac82a09ef9182d812d88c26b2429e5d9205727f7d9](https://preview.cardanoscan.io/transaction/dce6b8db9b38165e270202ac82a09ef9182d812d88c26b2429e5d9205727f7d9)
+- **Step 2 - Normal Transfer to Non-Blacklisted**: [973b58df7a88ad131990a1db71c977415d8b0183583c8c67c72705f96691c902](https://preview.cardanoscan.io/transaction/973b58df7a88ad131990a1db71c977415d8b0183583c8c67c72705f96691c902)
+- **Step 3 - Blacklist Action by Admin**: [eac5381a4bf0c7bfc198484ab4f3798c95d0ea9d70dfcc2a4bd1d7a7b12fc87e](https://preview.cardanoscan.io/transaction/eac5381a4bf0c7bfc198484ab4f3798c95d0ea9d70dfcc2a4bd1d7a7b12fc87e)
 - **Step 4 - Transfer to Blacklisted Address (blocked)**: No transaction (validation failure)
-- **Step 5 - Whitelist Action by Admin**: [eac5381a4bf0c7bfc198484ab4f3798c95d0ea9d70dfcc2a4bd1d7a7b12fc87e](https://preview.cardanoscan.io/transaction/eac5381a4bf0c7bfc198484ab4f3798c95d0ea9d70dfcc2a4bd1d7a7b12fc87e)
+- **Step 5 - Whitelist Action by Admin**: [c9cd4dccefee30cf8adc5a41a895018da1f45054ab820eff5fdf68253fc27096](https://preview.cardanoscan.io/transaction/c9cd4dccefee30cf8adc5a41a895018da1f45054ab820eff5fdf68253fc27096)
 - **Step 6 - Post-Whitelist Transfer Success**: [2456f991d8290c9e9e0c7d2a8b0da8dc5b7072da75048918da62fa287ea1dad8](https://preview.cardanoscan.io/transaction/2456f991d8290c9e9e0c7d2a8b0da8dc5b7072da75048918da62fa287ea1dad8)
 
 **🔍 What to Check**:
@@ -92,7 +92,7 @@ All transactions can be verified on [Cardano Preview Explorer](https://preview.c
 - **Dynamic Updates**: See blacklist datum change as addresses are added/removed
 
 **📍 Key Addresses**:
-- **Blacklist Reference Script Address**: [addr_test1wzm4674lkkjgvn5mk7zkv6dtslmrrw32z3823xj0nwm57acv94sf8](https://preview.cardanoscan.io/address/addr_test1wzm4674lkkjgvn5mk7zkv6dtslmrrw32z3823xj0nwm57acv94sf8)
+- **Blacklist Reference Address**: [addr_test1wzm4674lkkjgvn5mk7zkv6dtslmrrw32z3823xj0nwm57acv94sf8](https://preview.cardanoscan.io/address/addr_test1wzm4674lkkjgvn5mk7zkv6dtslmrrw32z3823xj0nwm57acv94sf8)
 - **Blacklist Datum at the Time the Address was Blacklisted**: [View in Datum Inspector](https://preview.cardanoscan.io/datumInspector?datum=d8799f9f581c23109ee018f873bb9aa5f8a4b1bb8334bd56d31148358c49d1f1cccfffff)
 
 ### 4. `emulator.log` - Emulator Tests
@@ -100,7 +100,7 @@ All transactions can be verified on [Cardano Preview Explorer](https://preview.c
 
 ## 🚀 Running Your Own Testnet Tests
 
-To generate your own logs:
+The above logs are provided for convenience. You can always generate your own logs by running the scripts and waiting some time:
 1. Configure `scripts/config.ts` with your testnet credentials
 2. Change `.skip` to `.only` in the desired test file
 3. Run `yarn test`

@@ -6,11 +6,7 @@ This repository implements programmable tokens on Cardano, featuring three disti
 
 Programmable tokens extend basic Cardano native tokens with additional validation logic that enforces specific rules during transfers. This implementation follows the architectural patterns described in the programmable tokens whitepaper.
 
-### Links
-
-- [Catalyst Grant](https://cardano.ideascale.com/c/idea/114288)
-- [Project Milestones](https://milestones.projectcatalyst.io/projects/1100063) 
-- [Full Whitepaper](https://github.com/Invariant-0/programmable-tokens-research/blob/main/whitepaper.pdf)
+**⚠️ DISCLAIMER**: This proof-of-concept implementation is for research and demonstration purposes only. These validators have not been audited and are not production-ready. Do not use in production environments without proper security auditing and testing.
 
 ## Token Types
 
@@ -138,6 +134,8 @@ Testnet showcase tests are **skipped by default** but can be easily enabled for 
    export const BLOCKFROST_API_KEY = "your_testnet_api_key";
    export const BLOCKFROST_URL = "https://cardano-preview.blockfrost.io/api/v0";
    export const PRIVATE_KEY = "your_testnet_private_key";
+   export const PRIVATE_KEY2 = "another_testnet_private_key";
+   export const PRIVATE_KEY3 = "yet_another_testnet_private_key";
    ```
 
 2. **Enable Tests**: Change `.skip` to `.only` in test files:
