@@ -1,0 +1,14 @@
+*.addr
+*.sk
+programmable/scripts/config.ts
+
+# Aiken
+**/artifacts/
+**/build/
+**/docs/
+
+# MacOS
+.DS_Store
+
+# Node
+node_modules

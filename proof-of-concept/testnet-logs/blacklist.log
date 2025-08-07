@@ -1,0 +1,1007 @@
+yarn run v1.22.22
+$ vitest run
+
+ RUN  v2.1.9 [PROJECT_ROOT]
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+
+=== CARDANO TESTNET BLACKLIST SHOWCASE ===
+Demonstrating blacklist programmable token functionalities
+
+🔧 Step 1: Minting blacklist programmable tokens...
+
+ ✓ programmable/fee-on-transfer.test.ts > Bootstrap Fee-on-Transfer > Minting fee-on-transfer programmable tokens
+ ✓ programmable/fee-on-transfer.test.ts > Bootstrap Fee-on-Transfer > Minting fee-on-transfer tokens into multiple UTxOs
+ ✓ programmable/fee-on-transfer.test.ts > Fee-on-Transfer Token Operations > Valid transfer with fee payment
+ ✓ programmable/fee-on-transfer.test.ts > Fee-on-Transfer Token Operations > Transfer without fee payment should fail
+ ✓ programmable/fee-on-transfer.test.ts > Fee-on-Transfer Token Operations > Multiple transfers accumulate fees
+ ✓ programmable/fee-on-transfer.test.ts > Fee-on-Transfer Token Operations > Partial transfer with fee payment
+ ✓ programmable/fee-on-transfer.test.ts > Fee Withdrawal > Admin can withdraw accumulated fees
+ ✓ programmable/fee-on-transfer.test.ts > Fee Withdrawal > Non-admin cannot withdraw fees
+ ✓ programmable/fee-on-transfer.test.ts > Different Fee Amounts > Low fee amount (1 ADA)
+ ✓ programmable/fee-on-transfer.test.ts > Different Fee Amounts > High fee amount (10 ADA)
+ ✓ programmable/fee-on-transfer.test.ts > Multiple Fee-on-Transfer Tokens > Different tokens have independent fee collection
+ ✓ programmable/freezable.test.ts > Bootstrap > Creating freezable ref input
+ ✓ programmable/freezable.test.ts > Bootstrap > Minting programmable tokens X
+ ✓ programmable/freezable.test.ts > Bootstrap > Minting programmable tokens X into multiple UTxOs
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring all X to another account - valid transfer
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring all X to another account - trying to create proof but not referencing previous
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring all X to another account - invalid transfer
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring part of X to another account - invalid transfer
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring part of X to another account - valid transfer
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Multiple transfers of X through multiple accounts - valid transfers
+ ✓ programmable/freezable.test.ts > Freeze functionality > Admin can freeze
+ ✓ programmable/freezable.test.ts > Freeze functionality > Non-admin can NOT freeze
+ ✓ programmable/freezable.test.ts > Freeze functionality > Admin can freeze and unfreeze
+ ✓ programmable/freezable.test.ts > Freeze functionality > No valid transfer when frozen
+ ✓ programmable/freezable.test.ts > Freeze functionality > Transfer -> freeze -> no transfer -> unfreeze -> transfer
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Freezing one token does not freeze another programmable token
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Can not send frozen token by referencing bad freeze reference
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Single proof for both tokens
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Single proof for both tokens can be referenced one at a time
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Single proof for both tokens can be referenced for both at once
+ ✓ programmable/freezable.test.ts > Merging UTxOs > Creating more UTxOs inside own wallet -> merge them -> transfer away
+ ✓ programmable/freezable.test.ts > Merging UTxOs > Creating more UTxOs inside own wallet -> merge them without creating proof (invalid)
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+
+
+Transaction confirmed!
+	Tx ID: 09c6aa25b7a3f61d4031dc188cbc2430d901453ee5eef3c3cdf59eeaf8592d32
+	Check details at https://preview.cardanoscan.io/transaction/09c6aa25b7a3f61d4031dc188cbc2430d901453ee5eef3c3cdf59eeaf8592d32 
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+
+
+Transaction confirmed!
+	Tx ID: dce6b8db9b38165e270202ac82a09ef9182d812d88c26b2429e5d9205727f7d9
+	Check details at https://preview.cardanoscan.io/transaction/dce6b8db9b38165e270202ac82a09ef9182d812d88c26b2429e5d9205727f7d9 
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+✅ Successfully minted tokens with blacklist functionality
+
+💸 Step 2: Transferring tokens to non-blacklisted address...
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+
+
+Transaction confirmed!
+	Tx ID: 973b58df7a88ad131990a1db71c977415d8b0183583c8c67c72705f96691c902
+	Check details at https://preview.cardanoscan.io/transaction/973b58df7a88ad131990a1db71c977415d8b0183583c8c67c72705f96691c902 
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+✅ Transfer successful - recipient not blacklisted
+
+🚫 Step 3: Admin blacklisting an address...
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+
+
+Transaction confirmed!
+	Tx ID: eac5381a4bf0c7bfc198484ab4f3798c95d0ea9d70dfcc2a4bd1d7a7b12fc87e
+	Check details at https://preview.cardanoscan.io/transaction/eac5381a4bf0c7bfc198484ab4f3798c95d0ea9d70dfcc2a4bd1d7a7b12fc87e 
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+✅ Address successfully blacklisted
+
+🚫 Step 4: Verifying transfer to blacklisted address fails...
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+✅ Transfer correctly blocked - address is blacklisted
+
+✅ Step 5: Admin whitelisting the address...
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+
+
+Transaction confirmed!
+	Tx ID: c9cd4dccefee30cf8adc5a41a895018da1f45054ab820eff5fdf68253fc27096
+	Check details at https://preview.cardanoscan.io/transaction/c9cd4dccefee30cf8adc5a41a895018da1f45054ab820eff5fdf68253fc27096 
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+✅ Address successfully removed from blacklist
+
+💸 Step 6: Verifying transfer succeeds after whitelisting...
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+.
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+
+
+Transaction confirmed!
+	Tx ID: 2456f991d8290c9e9e0c7d2a8b0da8dc5b7072da75048918da62fa287ea1dad8
+	Check details at https://preview.cardanoscan.io/transaction/2456f991d8290c9e9e0c7d2a8b0da8dc5b7072da75048918da62fa287ea1dad8 
+
+stdout | programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow
+✅ Transfer successful - address no longer blacklisted
+
+🎉 TESTNET BLACKLIST SHOWCASE COMPLETE! 🎉
+All functionalities demonstrated successfully:
+  ✓ Minting blacklist programmable tokens
+  ✓ Transfers to non-blacklisted addresses
+  ✓ Blacklisting addresses by administrator
+  ✓ Blocking transfers involving blacklisted addresses
+  ✓ Whitelisting addresses by administrator
+  ✓ Restored transfers after whitelisting
+
+ ✓ programmable/blacklist.test.ts > Testnet Blacklist Showcase > Testnet blacklist flow 921701ms
+
+ Test Files  3 passed (3)
+      Tests  33 passed | 14 skipped (47)
+   Start at  14:17:53
+   Duration  922.81s (transform 104ms, setup 0ms, collect 2.81s, tests 928.17s, environment 0ms, prepare 92ms)
+
+Done in 923.45s.

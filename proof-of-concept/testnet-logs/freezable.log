@@ -1,0 +1,1510 @@
+yarn run v1.22.22
+$ vitest run
+
+ RUN  v2.1.9 [PROJECT_ROOT]
+
+ ✓ programmable/fee-on-transfer.test.ts > Bootstrap Fee-on-Transfer > Minting fee-on-transfer programmable tokens
+ ✓ programmable/fee-on-transfer.test.ts > Bootstrap Fee-on-Transfer > Minting fee-on-transfer tokens into multiple UTxOs
+ ✓ programmable/fee-on-transfer.test.ts > Fee-on-Transfer Token Operations > Valid transfer with fee payment
+ ✓ programmable/fee-on-transfer.test.ts > Fee-on-Transfer Token Operations > Transfer without fee payment should fail
+ ✓ programmable/fee-on-transfer.test.ts > Fee-on-Transfer Token Operations > Multiple transfers accumulate fees
+ ✓ programmable/fee-on-transfer.test.ts > Fee-on-Transfer Token Operations > Partial transfer with fee payment
+ ✓ programmable/fee-on-transfer.test.ts > Fee Withdrawal > Admin can withdraw accumulated fees
+ ✓ programmable/fee-on-transfer.test.ts > Fee Withdrawal > Non-admin cannot withdraw fees
+ ✓ programmable/fee-on-transfer.test.ts > Different Fee Amounts > Low fee amount (1 ADA)
+ ✓ programmable/fee-on-transfer.test.ts > Different Fee Amounts > High fee amount (10 ADA)
+ ✓ programmable/fee-on-transfer.test.ts > Multiple Fee-on-Transfer Tokens > Different tokens have independent fee collection
+ ✓ programmable/blacklist.test.ts > Bootstrap Blacklist > Creating blacklist ref input
+ ✓ programmable/blacklist.test.ts > Bootstrap Blacklist > Minting blacklist programmable tokens
+ ✓ programmable/blacklist.test.ts > Bootstrap Blacklist > Minting blacklist tokens into multiple UTxOs
+ ✓ programmable/blacklist.test.ts > Blacklist Token Operations > Valid transfer to non-blacklisted address
+ ✓ programmable/blacklist.test.ts > Blacklist Token Operations > Transfer to blacklisted address should fail
+ ✓ programmable/blacklist.test.ts > Blacklist Token Operations > Transfer from blacklisted address should fail
+ ✓ programmable/blacklist.test.ts > Blacklist Token Operations > Transfer between non-blacklisted addresses succeeds
+ ✓ programmable/blacklist.test.ts > Blacklist Management > Admin can blacklist addresses
+ ✓ programmable/blacklist.test.ts > Blacklist Management > Admin can whitelist addresses
+ ✓ programmable/blacklist.test.ts > Blacklist Management > Non-admin cannot modify blacklist
+ ✓ programmable/blacklist.test.ts > Blacklist Management > Blacklist -> transfer fails -> whitelist -> transfer succeeds
+ ✓ programmable/blacklist.test.ts > Multiple Blacklist Tokens > Independent blacklists for different tokens
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+Waiting for 5 tx confirmations...
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+
+
+Transaction confirmed!
+	Tx ID: cefa3dd9004d9627ceb0a2d0939158c3df8c05456bb7512c1700a696946a04a0
+	Check details at https://preview.cardanoscan.io/transaction/cefa3dd9004d9627ceb0a2d0939158c3df8c05456bb7512c1700a696946a04a0 
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+Waiting for 5 tx confirmations...
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+
+
+Transaction confirmed!
+	Tx ID: bf2c1ec8f6ec53ab04258eacbd35566132f49d5847405e6da0650be5243b13c6
+	Check details at https://preview.cardanoscan.io/transaction/bf2c1ec8f6ec53ab04258eacbd35566132f49d5847405e6da0650be5243b13c6 
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+Waiting for 5 tx confirmations...
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase
+
+
+Transaction confirmed!
+	Tx ID: ff7f9fab3c38e01498a1da6d5540be280eec228444ad8201b27deb28dccd2c55
+	Check details at https://preview.cardanoscan.io/transaction/ff7f9fab3c38e01498a1da6d5540be280eec228444ad8201b27deb28dccd2c55 
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+
+=== CARDANO TESTNET SHOWCASE ===
+Demonstrating programmable freezable token functionalities
+
+🔧 Step 1: Minting programmable tokens and performing other bootstrap transactions...
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+
+
+Transaction confirmed!
+	Tx ID: b8182118016541a1e2a79292c096f4e682ecfb2a4741e43d646f5a345f6a0bdf
+	Check details at https://preview.cardanoscan.io/transaction/b8182118016541a1e2a79292c096f4e682ecfb2a4741e43d646f5a345f6a0bdf 
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+
+
+Transaction confirmed!
+	Tx ID: 8bb119cdc73c0111b50ea5f777e5ae840cd51794b4dbc92e00700deff59c0696
+	Check details at https://preview.cardanoscan.io/transaction/8bb119cdc73c0111b50ea5f777e5ae840cd51794b4dbc92e00700deff59c0696 
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+✅ Successfully minted programmable tokens with freeze functionality
+
+💸 Step 2: Transferring tokens from wallet A to wallet B...
+Transferring 400 tokens from admin (addr_test1vznszvym4gy2ch8h5uk9hkt8ytkfly4zlk84qjsulpfjryg87qlg6) to wallet B (addr_test1vqvhrjwv85hxqc5u48jnuem598jkheejp3amf90xh2pupeq9mezp6)
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+Error fetching transaction info, retrying... TypeError: fetch failed
+    at node:internal/deps/undici/undici:12345:11
+    at Timeout._onTimeout ([PROJECT_ROOT]/programmable/scripts/utils.ts:32:29) {
+  cause: SocketError: other side closed
+      at TLSSocket.onSocketEnd (node:internal/deps/undici/undici:8903:26)
+      at TLSSocket.emit (node:events:530:35)
+      at endReadableNT (node:internal/streams/readable:1696:12)
+      at processTicksAndRejections (node:internal/process/task_queues:82:21) {
+    code: 'UND_ERR_SOCKET',
+    socket: {
+      localAddress: '10.5.0.2',
+      localPort: 53207,
+      remoteAddress: '172.66.41.5',
+      remotePort: 443,
+      remoteFamily: 'IPv4',
+      timeout: undefined,
+      bytesWritten: 108363,
+      bytesRead: 330527
+    }
+  }
+}
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+
+
+Transaction confirmed!
+	Tx ID: 0f6299560c31a15474ef0a17766d9d636e5702d2ca826b06612d68b6c3fc1a6c
+	Check details at https://preview.cardanoscan.io/transaction/0f6299560c31a15474ef0a17766d9d636e5702d2ca826b06612d68b6c3fc1a6c 
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+✅ Transfer successful - tokens moved from wallet A to wallet B
+
+🧊 Step 3: Administrator freezing all tokens...
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+
+
+Transaction confirmed!
+	Tx ID: e15f0d59f1cfdc91c82865a4915707f7e21f846cd00c2a8352a420bbff6b61f5
+	Check details at https://preview.cardanoscan.io/transaction/e15f0d59f1cfdc91c82865a4915707f7e21f846cd00c2a8352a420bbff6b61f5 
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+✅ Tokens successfully frozen by administrator
+
+🚫 Step 4: Verifying frozen tokens cannot be transferred...
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+✅ Transfer correctly blocked - frozen tokens cannot be moved
+
+🔓 Step 5: Administrator unfreezing tokens...
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+
+
+Transaction confirmed!
+	Tx ID: ace75d624ae621a6db4c3d2a972d21b27ae5792b519d40cbf1e24f73cda6210b
+	Check details at https://preview.cardanoscan.io/transaction/ace75d624ae621a6db4c3d2a972d21b27ae5792b519d40cbf1e24f73cda6210b 
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+✅ Tokens successfully unfrozen by administrator
+
+✅ Step 6: Verifying unfrozen tokens can now be transferred...
+Transferring 200 tokens from wallet B (addr_test1vqvhrjwv85hxqc5u48jnuem598jkheejp3amf90xh2pupeq9mezp6) to wallet C (addr_test1vq33p8hqrru88wu65hu2fvdmsv6t64knz9yrtrzf68cuenc80kq5k)
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+.
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+
+
+Transaction confirmed!
+	Tx ID: e05ce9bc02d1ff27812200373c841b212313b98cd2702d9e837b3ebfd0722473
+	Check details at https://preview.cardanoscan.io/transaction/e05ce9bc02d1ff27812200373c841b212313b98cd2702d9e837b3ebfd0722473 
+
+stdout | programmable/freezable.test.ts > Testnet basic showcase > Testnet flow
+✅ Transfer successful - unfrozen tokens can be moved normally
+
+🎉 TESTNET SHOWCASE COMPLETE! 🎉
+All functionalities demonstrated successfully:
+  ✓ Minting programmable tokens
+  ✓ Token transfer between wallets
+  ✓ Freezing tokens by administrator
+  ✓ Unfreezing tokens by administrator
+
+ ✓ programmable/freezable.test.ts > Testnet basic showcase > Testnet flow 906526ms
+
+ Test Files  3 passed (3)
+      Tests  24 passed | 23 skipped (47)
+   Start at  13:33:31
+   Duration  1712.28s (transform 103ms, setup 0ms, collect 2.34s, tests 1716.65s, environment 0ms, prepare 89ms)
+
+Done in 1712.71s.

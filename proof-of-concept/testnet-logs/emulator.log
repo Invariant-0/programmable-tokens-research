@@ -1,0 +1,56 @@
+yarn run v1.22.22
+$ vitest run
+
+ RUN  v2.1.9 [PROJECT_ROOT]
+
+ ✓ programmable/fee-on-transfer.test.ts > Bootstrap Fee-on-Transfer > Minting fee-on-transfer programmable tokens
+ ✓ programmable/fee-on-transfer.test.ts > Bootstrap Fee-on-Transfer > Minting fee-on-transfer tokens into multiple UTxOs
+ ✓ programmable/fee-on-transfer.test.ts > Fee-on-Transfer Token Operations > Valid transfer with fee payment
+ ✓ programmable/fee-on-transfer.test.ts > Fee-on-Transfer Token Operations > Transfer without fee payment should fail
+ ✓ programmable/fee-on-transfer.test.ts > Fee-on-Transfer Token Operations > Multiple transfers accumulate fees
+ ✓ programmable/fee-on-transfer.test.ts > Fee-on-Transfer Token Operations > Partial transfer with fee payment
+ ✓ programmable/fee-on-transfer.test.ts > Fee Withdrawal > Admin can withdraw accumulated fees
+ ✓ programmable/fee-on-transfer.test.ts > Fee Withdrawal > Non-admin cannot withdraw fees
+ ✓ programmable/fee-on-transfer.test.ts > Different Fee Amounts > Low fee amount (1 ADA)
+ ✓ programmable/fee-on-transfer.test.ts > Different Fee Amounts > High fee amount (10 ADA)
+ ✓ programmable/fee-on-transfer.test.ts > Multiple Fee-on-Transfer Tokens > Different tokens have independent fee collection
+ ✓ programmable/blacklist.test.ts > Bootstrap Blacklist > Creating blacklist ref input
+ ✓ programmable/blacklist.test.ts > Bootstrap Blacklist > Minting blacklist programmable tokens
+ ✓ programmable/blacklist.test.ts > Bootstrap Blacklist > Minting blacklist tokens into multiple UTxOs
+ ✓ programmable/blacklist.test.ts > Blacklist Token Operations > Valid transfer to non-blacklisted address
+ ✓ programmable/blacklist.test.ts > Blacklist Token Operations > Transfer to blacklisted address should fail
+ ✓ programmable/blacklist.test.ts > Blacklist Token Operations > Transfer from blacklisted address should fail
+ ✓ programmable/blacklist.test.ts > Blacklist Token Operations > Transfer between non-blacklisted addresses succeeds
+ ✓ programmable/blacklist.test.ts > Blacklist Management > Admin can blacklist addresses
+ ✓ programmable/blacklist.test.ts > Blacklist Management > Admin can whitelist addresses
+ ✓ programmable/blacklist.test.ts > Blacklist Management > Non-admin cannot modify blacklist
+ ✓ programmable/blacklist.test.ts > Blacklist Management > Blacklist -> transfer fails -> whitelist -> transfer succeeds
+ ✓ programmable/blacklist.test.ts > Multiple Blacklist Tokens > Independent blacklists for different tokens
+ ✓ programmable/freezable.test.ts > Bootstrap > Creating freezable ref input
+ ✓ programmable/freezable.test.ts > Bootstrap > Minting programmable tokens X
+ ✓ programmable/freezable.test.ts > Bootstrap > Minting programmable tokens X into multiple UTxOs
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring all X to another account - valid transfer
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring all X to another account - trying to create proof but not referencing previous
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring all X to another account - invalid transfer
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring part of X to another account - invalid transfer
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring part of X to another account - valid transfer
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Multiple transfers of X through multiple accounts - valid transfers
+ ✓ programmable/freezable.test.ts > Freeze functionality > Admin can freeze
+ ✓ programmable/freezable.test.ts > Freeze functionality > Non-admin can NOT freeze
+ ✓ programmable/freezable.test.ts > Freeze functionality > Admin can freeze and unfreeze
+ ✓ programmable/freezable.test.ts > Freeze functionality > No valid transfer when frozen
+ ✓ programmable/freezable.test.ts > Freeze functionality > Transfer -> freeze -> no transfer -> unfreeze -> transfer
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Freezing one token does not freeze another programmable token
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Can not send frozen token by referencing bad freeze reference
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Single proof for both tokens
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Single proof for both tokens can be referenced one at a time
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Single proof for both tokens can be referenced for both at once
+ ✓ programmable/freezable.test.ts > Merging UTxOs > Creating more UTxOs inside own wallet -> merge them -> transfer away
+ ✓ programmable/freezable.test.ts > Merging UTxOs > Creating more UTxOs inside own wallet -> merge them without creating proof (invalid)
+
+ Test Files  3 passed (3)
+      Tests  44 passed | 3 skipped (47)
+   Start at  13:33:00
+   Duration  5.60s (transform 104ms, setup 0ms, collect 2.56s, tests 10.28s, environment 0ms, prepare 83ms)
+
+Done in 6.13s.

@@ -1,3 +1,20 @@
+## Version 0.3 (Milestones 3 and 4) - [2025-08-07]
+
+### Added
+
+- **Complete Proof of Concept for Common Programmable Tokens**: Implemented comprehensive programmable token functionality demonstrating:
+  - **Freezable Cardano native programmable tokens**:
+    - Token minting capabilities
+    - Transfer between wallets (A to B)
+    - Administrative freezing of tokens
+    - Administrative unfreezing of tokens
+  - **Fee-on-transfer tokens**: Tokens that automatically deduct fees during transfers
+  - **Blacklist functionality with extendable blacklist**: Ability to maintain and extend blacklisted addresses
+  - **Blacklist validation**: Prevention of transfers from blacklisted addresses
+- Well-documented proof-of-concept validators (on-chain) and off-chain test implementations covering all specified behavior
+- Testnet tests and testing logs from them
+- See [./proof-of-concept/](./proof-of-concept/)
+
 ## Version 0.2 (Milestone 2) - [2024-08-27]
 
 ### Added

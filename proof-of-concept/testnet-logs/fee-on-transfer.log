@@ -1,0 +1,771 @@
+yarn run v1.22.22
+$ vitest run
+
+ RUN  v2.1.9 [PROJECT_ROOT]
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+
+=== CARDANO TESTNET FEE-ON-TRANSFER SHOWCASE ===
+Demonstrating fee-on-transfer programmable token functionalities
+
+🔧 Step 1: Minting fee-on-transfer programmable tokens...
+
+ ✓ programmable/blacklist.test.ts > Bootstrap Blacklist > Creating blacklist ref input
+ ✓ programmable/blacklist.test.ts > Bootstrap Blacklist > Minting blacklist programmable tokens
+ ✓ programmable/blacklist.test.ts > Bootstrap Blacklist > Minting blacklist tokens into multiple UTxOs
+ ✓ programmable/blacklist.test.ts > Blacklist Token Operations > Valid transfer to non-blacklisted address
+ ✓ programmable/blacklist.test.ts > Blacklist Token Operations > Transfer to blacklisted address should fail
+ ✓ programmable/blacklist.test.ts > Blacklist Token Operations > Transfer from blacklisted address should fail
+ ✓ programmable/blacklist.test.ts > Blacklist Token Operations > Transfer between non-blacklisted addresses succeeds
+ ✓ programmable/blacklist.test.ts > Blacklist Management > Admin can blacklist addresses
+ ✓ programmable/blacklist.test.ts > Blacklist Management > Admin can whitelist addresses
+ ✓ programmable/blacklist.test.ts > Blacklist Management > Non-admin cannot modify blacklist
+ ✓ programmable/blacklist.test.ts > Blacklist Management > Blacklist -> transfer fails -> whitelist -> transfer succeeds
+ ✓ programmable/blacklist.test.ts > Multiple Blacklist Tokens > Independent blacklists for different tokens
+ ✓ programmable/freezable.test.ts > Bootstrap > Creating freezable ref input
+ ✓ programmable/freezable.test.ts > Bootstrap > Minting programmable tokens X
+ ✓ programmable/freezable.test.ts > Bootstrap > Minting programmable tokens X into multiple UTxOs
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring all X to another account - valid transfer
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring all X to another account - trying to create proof but not referencing previous
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring all X to another account - invalid transfer
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring part of X to another account - invalid transfer
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Transferring part of X to another account - valid transfer
+ ✓ programmable/freezable.test.ts > Sending programmable tokens > Multiple transfers of X through multiple accounts - valid transfers
+ ✓ programmable/freezable.test.ts > Freeze functionality > Admin can freeze
+ ✓ programmable/freezable.test.ts > Freeze functionality > Non-admin can NOT freeze
+ ✓ programmable/freezable.test.ts > Freeze functionality > Admin can freeze and unfreeze
+ ✓ programmable/freezable.test.ts > Freeze functionality > No valid transfer when frozen
+ ✓ programmable/freezable.test.ts > Freeze functionality > Transfer -> freeze -> no transfer -> unfreeze -> transfer
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Freezing one token does not freeze another programmable token
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Can not send frozen token by referencing bad freeze reference
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Single proof for both tokens
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Single proof for both tokens can be referenced one at a time
+ ✓ programmable/freezable.test.ts > Multiple freezable programmable tokens X, Y > Single proof for both tokens can be referenced for both at once
+ ✓ programmable/freezable.test.ts > Merging UTxOs > Creating more UTxOs inside own wallet -> merge them -> transfer away
+ ✓ programmable/freezable.test.ts > Merging UTxOs > Creating more UTxOs inside own wallet -> merge them without creating proof (invalid)
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+
+
+Transaction confirmed!
+	Tx ID: 2ea2fb217a1b3a9e89204957b0893b692e8d01be541f78889bc5921cb595b1d1
+	Check details at https://preview.cardanoscan.io/transaction/2ea2fb217a1b3a9e89204957b0893b692e8d01be541f78889bc5921cb595b1d1 
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+✅ Successfully minted tokens with 2 ADA fee per transfer
+
+💸 Step 2: Transferring tokens with fee payment...
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+
+
+Transaction confirmed!
+	Tx ID: f80f3a5f84d5d2ce0715f7ba9db4e9c238f2fc6887bf155fc5c33788d56f3b58
+	Check details at https://preview.cardanoscan.io/transaction/f80f3a5f84d5d2ce0715f7ba9db4e9c238f2fc6887bf155fc5c33788d56f3b58 
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+✅ Transfer successful - fee automatically collected
+
+💰 Step 3: Verifying fee collection...
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+✅ Total fees collected: 4 ADA
+
+🔄 Step 4: Multiple transfers to accumulate fees...
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+
+
+Transaction confirmed!
+	Tx ID: 405173f5962f6407438a2a102156e9d18306128972123870c4ee8a44eab2a354
+	Check details at https://preview.cardanoscan.io/transaction/405173f5962f6407438a2a102156e9d18306128972123870c4ee8a44eab2a354 
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+✅ Second transfer successful
+
+🚫 Step 5: Verifying fee payment is mandatory (transfer without fee should fail)...
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+✅ Transfer correctly blocked - fee payment is mandatory
+
+🏦 Step 6: Admin withdrawing accumulated fees...
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+Waiting for 5 tx confirmations...
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+.
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+
+
+Transaction confirmed!
+	Tx ID: 963aa4b77f46d66b7f0ef3e2405350fefd116af301adc6ad21601ef0d8598d55
+	Check details at https://preview.cardanoscan.io/transaction/963aa4b77f46d66b7f0ef3e2405350fefd116af301adc6ad21601ef0d8598d55 
+
+stdout | programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow
+✅ Fees successfully withdrawn by admin
+
+🎉 TESTNET FEE-ON-TRANSFER SHOWCASE COMPLETE! 🎉
+All functionalities demonstrated successfully:
+  ✓ Minting fee-on-transfer tokens
+  ✓ Automatic fee collection on transfers
+  ✓ Fee accumulation from multiple transfers
+  ✓ Mandatory fee payment enforcement
+  ✓ Fee withdrawal by administrator
+
+ ✓ programmable/fee-on-transfer.test.ts > Testnet Fee-on-Transfer Showcase > Testnet fee-on-transfer flow 678062ms
+
+ Test Files  3 passed (3)
+      Tests  34 passed | 13 skipped (47)
+   Start at  14:04:27
+   Duration  679.26s (transform 115ms, setup 0ms, collect 2.99s, tests 684.70s, environment 0ms, prepare 118ms)
+
+Done in 680.26s.

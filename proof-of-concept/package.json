@@ -1,0 +1,27 @@
+{
+  "name": "programmable-tokens-proof-of-concept",
+  "license": "GPL-3.0",
+  "author": "Invariant-0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Invariant-0/programmable-tokens-research.git"
+  },
+  "dependencies": {
+    "@harmoniclabs/bytestring": "^1.0.0",
+    "@harmoniclabs/cbor": "^1.4.0",
+    "@harmoniclabs/pair": "^1.0.0",
+    "@lucid-evolution/lucid": "^0.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.7",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "vitest": "^2.1.4"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
