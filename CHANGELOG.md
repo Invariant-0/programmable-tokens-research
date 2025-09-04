@@ -1,3 +1,13 @@
+## Version 1.0 (Final Milestone) - [2025-09-04]
+
+### Added
+
+- **Final Whitepaper Completion** with added conclusion section covering adoption paths, standardization considerations and final remarks.
+
+### Changed
+
+- Rebranded the whitepaper under new Invariant0 branding guidelines, styling and formatting for consistency.
+
 ## Version 0.3 (Milestones 3 and 4) - [2025-08-07]
 
 ### Added
