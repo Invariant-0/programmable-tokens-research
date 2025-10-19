@@ -1,0 +1,148 @@
+\section{Project Closeout Report}
+
+\subsection{Cardano Native Token Extension:\\ Programmable Tokens}
+
+Key project details:
+\begin{itemize}
+\item \textbf{Project name:} Cardano Native Token Extension: Programmable Tokens (\href{https://cardano.ideascale.com/c/cardano/idea/114288}{IdeaScale link})
+\item \textbf{Project number:} 1100063
+\item \textbf{Project manager:} Michal Porubsky
+\item \textbf{Project start:} March 11, 2024
+\item \textbf{Project completion:} Sep 4, 2025
+\item \textbf{Closeout video:} \url{https://youtu.be/yQqF2p-jZXA}
+\end{itemize}
+
+\subsection{Project summary}
+We have successfully researched and implemented a comprehensive solution for bringing programmable on-transfer functionalities to Cardano native tokens. Our project bridges the capability gap between Ethereum's ERC-20 tokens and Cardano's native tokens while preserving the inherent security benefits and self-custody properties of native tokens.
+
+The project delivered a complete design document (whitepaper) detailing the technical architecture including covering numerous edge cases, integration guidelines for wallets and dApps, and three fully functional proof-of-concept implementations demonstrating freezable tokens, fee-on-transfer tokens, and blacklistable tokens. All implementations have been tested on Cardano Preview Testnet with detailed documentation and evidence of successful execution.
+
+\subsection{Challenge KPIs}
+The Cardano Open: Developers challenge set several KPIs relevant to our project:
+
+\medskip{}
+
+\noindent{}\textbf{Increase the number and quality of open-source projects}.
+We have created a comprehensive open-source solution for programmable tokens on Cardano, including a detailed whitepaper and three proof-of-concept implementations. All materials are published under GPL-3.0 license on GitHub, providing a foundation for projects requiring regulatory compliance features like blacklisting or emergency freeze capabilities, fee collection, or any other on-transfer functionalities imaginable.
+
+\medskip{}
+
+\noindent{}\textbf{Increase adoption of Cardano technology}.
+Our solution directly addresses a significant barrier to adoption by enabling functionality that many projects (especially regulated tokens and stablecoins) require. By providing native token programmability similar to Ethereum's ERC-20 tokens while maintaining Cardano's security benefits, we make Cardano more attractive to institutional projects and regulated assets that previously couldn't operate on the platform.
+
+\medskip{}
+
+\noindent{}\textbf{Open source license requirement}.
+All project materials are published under GPL-3.0 open source license on GitHub.
+
+\medskip{}
+
+\noindent{}\textbf{High quality documentation delivery}.
+The project is well documented including both a very deep and thorough theory featured in the whitepaper document and then implementation-specific comments directly in the code. It also features numerous README.md files further explaining details like file structure, and more.
+
+\subsection{Project KPIs}
+\noindent{}Our project successfully delivered all proposed milestones and objectives:
+
+\medskip{}
+
+\noindent{}\textbf{Milestone Deliverables:}
+\begin{itemize}
+\item \checkmark{} \textbf{Comprehensive Design Document (Whitepaper)}: Completed with detailed technical architecture, protocol specifications, and integration guidelines.
+\item \checkmark{} \textbf{Three Proof-of-Concept Implementations}: 
+  \begin{itemize}
+  \item Freezable tokens with admin freeze/unfreeze controls.
+  \item Fee-on-transfer tokens with automatic fee collection.
+  \item Blacklistable tokens with dynamic address management.
+  \end{itemize}
+\item \checkmark{} \textbf{Testnet Validation}: All implementations tested on Cardano Preview Testnet with documented verifiable transaction logs.
+\item \checkmark{} \textbf{Integration Guidelines}: Detailed specifications for wallet and dApp integration.
+\end{itemize}
+
+\medskip{}
+
+\noindent{}\textbf{Engagement and Adoption Indicators:}
+\begin{itemize}
+\item \textbf{Open Source Repository}: All code and documentation published on GitHub under open source GPL-3.0 license.
+\item \textbf{Industry Interest}: The project addresses critical needs identified by major players in the ecosystem, with parallel efforts (like FluidTokens' lending protocol v3 already implementing similar designs).
+\item \textbf{Standardization Foundation}: Our modular protocol design plays with existing standards such as CIP-68 and itself provides a solid foundation for potential ecosystem-wide standards.
+\end{itemize}
+
+\medskip{}
+
+\noindent{}\textbf{Technical Achievements:}
+\begin{itemize}
+\item Successfully demonstrated that programmable transfer functionality can be added to Cardano native tokens without compromising their self-custody properties.
+\item Proved the feasibility of compliance features (blacklisting, fees, freezing) without requiring ledger modifications.
+\item Created a non-invasive design that maintains compatibility with existing infrastructure.
+\end{itemize}
+
+\subsection{Key Achievements}
+\noindent{}\textbf{Technical Innovation}: We successfully designed and implemented a protocol that extends Cardano's native tokens with programmable transfer functionality - a capability previously thought to require compromising native token benefits. Our solution maintains self-custody while enabling compliance features essential for regulated assets.
+
+\medskip{}
+
+\noindent{}\textbf{Comprehensive Documentation}: The project produced a detailed whitepaper that serves as both a technical specification and an implementation guide. It covers the complete protocol design, security considerations, wallet integration, dApp compatibility, and future standardization pathways.
+
+\medskip{}
+
+\noindent{}\textbf{Proof of Concept Implementations}: We delivered three fully functional proof-of-concept implementations:
+\begin{itemize}
+\item \textbf{Freezable tokens}: Demonstrating emergency response capabilities with admin-controlled freeze/unfreeze transfer functionality.
+\item \textbf{Fee-on-transfer tokens}: Showing automatic fee collection with treasury management, essential for some tokenomics models.
+\item \textbf{Blacklistable tokens}: Implementing dynamic address restrictions for sanctions compliance.
+\end{itemize}
+
+\medskip{}
+
+\noindent{}In summary, we delivered everything so that a token that wants or needs an on-transfer functionality can easily deliver! Even though alternative solutions to achieve similar programmable on-transfer goals appeared, they offer different trade-offs and face similar security challenges. The materials delivered prove \textbf{invaluable} to those projects anyway, whatever solution they choose to implement in the end.
+
+\subsection{Key Learnings}
+\noindent{}\textbf{Protocol Design Complexity}: Designing programmable tokens that work within Cardano's eUTxO model while maintaining native token benefits proved more complex than initially anticipated. We explored multiple approaches (including binding tokens to owners) before settling on our proof-based validation system that provides the right balance of security, bulletproofness and usability.
+
+\medskip{}
+
+\noindent{}\textbf{Integration Considerations}: The success of programmable tokens heavily depends on ecosystem support. Through our research, we identified that wallet and dApp integration requirements are manageable but require careful consideration of transaction construction, metadata standards (CIP-68), and security implications that can not be underestimated.
+
+\medskip{}
+
+\noindent{}\textbf{Standardization Need}: While developing three different token types, it became clear that standardization would greatly benefit the ecosystem. Common interfaces and predictable behavior patterns would simplify integration and reduce audit requirements for projects adopting programmable tokens.
+
+\medskip{}
+
+\noindent{}\textbf{Real-World Validation}: The parallel development of similar solutions (like the mentioned FluidTokens' implementation) demonstrated genuine market demand for these token capabilities. This external validation confirmed that our research addresses real ecosystem needs.
+
+\subsection{Next Steps}
+\noindent{}\textbf{Repository Maintenance}: We will continue to maintain the Programmable Tokens Research GitHub repository, addressing any issues and incorporating community feedback to improve the implementations.
+
+\medskip{}
+
+\noindent{}\textbf{Standardization Efforts}: Based on the strong foundation we've created, we see potential for proposing a Cardano Improvement Proposal (CIP) to standardize self-custody programmable token interfaces. This would accelerate adoption and ensure interoperability across the ecosystem. However, to avoid premature standardization, we are looking for a token issuer interested in walking this path with us.
+
+\medskip{}
+
+\noindent{}\textbf{Commercial Applications}: The research opens opportunities for regulated stablecoin implementations requiring compliance features, DeFi protocols with sophisticated tokenomics, and more.
+
+\medskip{}
+
+\noindent{}\textbf{Further Development}: Potential extensions include:
+\begin{itemize}
+\item Production-proofing of the provided template code including addition of the extensions as described in the whitepaper.
+\item Providing additional programmable check types.
+\item Enhancement registry implementation for ecosystem-wide token metadata.
+\item Integration toolkits for wallet and dApp developers.
+\item Audit frameworks for programmable token implementations.
+\end{itemize}
+
+\medskip{}
+
+\noindent{}\textbf{Community Engagement}: We remain available at info@invariant0.com for projects interested in implementing programmable tokens or requiring consultation on compliance-ready token designs.
+
+\subsection{Links}
+\begin{itemize}
+\item \textbf{GitHub Repository}: \url{https://github.com/Invariant-0/programmable-tokens-research}
+\item \textbf{Whitepaper}: \href{https://github.com/Invariant-0/programmable-tokens-research/blob/main/whitepaper.pdf}{Programmable Tokens Design Document}
+\item \textbf{Proof of Concepts}: \href{https://github.com/Invariant-0/programmable-tokens-research/tree/main/proof-of-concept}{Implementation Directory}
+\item \textbf{Testnet Transaction Logs}: \href{https://github.com/Invariant-0/programmable-tokens-research/tree/main/proof-of-concept/testnet-logs}{Documented Testnet Demonstrations}
+\item \textbf{Invariant0 Website}: \url{https://invariant0.com/}
+\item \textbf{Contact}: info@invariant0.com
+\end{itemize}

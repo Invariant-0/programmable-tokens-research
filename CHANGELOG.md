@@ -1,3 +1,9 @@
+## Version 1.0.1 - [2025-10-19]
+
+### Added
+
+- Catalyst **Closeout report** and video link. See closeout [folder](./closeout/).
+
 ## Version 1.0 (Final Milestone) - [2025-09-04]
 
 ### Added

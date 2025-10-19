@@ -36,7 +36,7 @@ export function createValidatorArtefact(
   return {
     validator,
     scriptHash: validatorToScriptHash(validator),
-    address: validatorToAddress(lucid.config().network, validator),
+    address: validatorToAddress(lucid.config().network!, validator),
   };
 }
 

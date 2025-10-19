@@ -13,7 +13,7 @@
     "@lucid-evolution/lucid": "^0.4.3"
   },
   "devDependencies": {
-    "@types/node": "^22.7.7",
+    "@types/node": "^24.3.1",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5",
     "vitest": "^2.1.4"

@@ -1,6 +1,6 @@
-import { applyParamsToScript, Emulator, Data, Lucid, MintingPolicy, Script, SpendingValidator, UTxO, LucidEvolution, validatorToScriptHash, validatorToAddress } from "@lucid-evolution/lucid";
+import { applyParamsToScript, Emulator, Data, MintingPolicy, Script, SpendingValidator, UTxO, LucidEvolution, validatorToScriptHash, validatorToAddress } from "@lucid-evolution/lucid";
 
-import { BLOCKFROST_API_KEY, BLOCKFROST_URL, CONFIRMS_WAIT, PRIVATE_KEY } from "./config.ts";
+import { BLOCKFROST_API_KEY, BLOCKFROST_URL, CONFIRMS_WAIT } from "./config.ts";
 // import { OurEmulator } from "./emulatorProvider.ts";
 
 export const FIXED_MIN_ADA = 2000000n;
@@ -130,14 +130,6 @@ export function hour() {
 //     .to_bech32(undefined);
 // }
 
-// export function resetWallet(lucid: LucidEvolution) {
-//   if (isEmulator(lucid)) {
-//     lucid.selectWalletFromPrivateKey(EMULATOR_PRIVATE_KEY);
-//   } else {
-//     lucid.selectWalletFromPrivateKey(PRIVATE_KEY);
-//   }
-// }
-
 export async function fundWallet(
   lucid: LucidEvolution,
   address: string,
@@ -187,7 +179,7 @@ export function setupValidator(
     type: "PlutusV2",
     script: parameters === undefined ? compiledCode : applyParamsToScript(compiledCode, parameters),
   };
-  const address = validatorToAddress(lucid.config().network, validator);
+  const address = validatorToAddress(lucid.config().network!, validator);
   const hash = validatorToScriptHash(validator);
 
   return { validator, address, hash };
